@@ -1,4 +1,3 @@
 # MHGCP
 This is code of our model MHGCP.
-
-Coming soon
+To keep the anonymity of the submission, README file coming soon.
