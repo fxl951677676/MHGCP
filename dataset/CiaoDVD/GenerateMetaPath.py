@@ -50,9 +50,9 @@ with open('./ItemDistance_mat.pkl', 'wb') as fs:
 print(datetime.datetime.now())
 
 metaPath = {}
-metaPath['UIU'] = UIU_mat
-metaPath['UITIU'] = UITIU_mat
-metaPath['IUI'] = IUI_mat
+metaPath['UU'] = UserDistance_mat
+metaPath['ICI'] = ItemDistance_mat
+metaPath['UI'] = UiDistance_mat
 
 with open('metaPath.pkl', 'wb') as fs:
     pickle.dump(metaPath, fs)
