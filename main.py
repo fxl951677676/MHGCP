@@ -31,7 +31,9 @@ isLoadModel = False
 class Model():
     def __init__(self, args, data, distanceMat):
         self.args = args 
-        self.userDistanceMat, self.itemDistanceMat, self.uiDistanceMat = distanceMat
+        self.userDistanceMat = distanceMat['UU']
+        self.itemDistanceMat = distanceMat['ICI']
+        self.uiDistanceMat = distanceMat['UI']
         self.userMat = (self.userDistanceMat != 0) * 1
         self.itemMat = (self.itemDistanceMat != 0) * 1
         self.uiMat = (self.uiDistanceMat != 0) * 1  
