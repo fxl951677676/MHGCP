@@ -1,2 +1,4 @@
-To keep the anonymity of the submission, README file coming soon.
-We will provide a way to download raw date and processed data later.
+Source code for MHGCP:Multi-View Heterogeneous Graph with Cross-View Projection for Recommendation in DASFAA2025.
+
+Requirements
+Pytorch(1.5.0)
